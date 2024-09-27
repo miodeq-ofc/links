@@ -5,6 +5,11 @@ body {
     background-size: cover; /* Sprawia, że gradient pokrywa całą stronę */
     background-image: radial-gradient(circle at 6% 16%, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.01) 2%,transparent 2%, transparent 100%),radial-gradient(circle at 1% 81%, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.01) 2%,transparent 2%, transparent 100%),radial-gradient(circle at 30% 88%, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.01) 2%,transparent 2%, transparent 100%),radial-gradient(circle at 96% 73%, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.02) 8%,transparent 8%, transparent 100%),radial-gradient(circle at 3% 0%, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.01) 8%,transparent 8%, transparent 100%),radial-gradient(circle at 89% 94%, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.03) 8%,transparent 8%, transparent 100%),radial-gradient(circle at 49% 30%, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.02) 8%,transparent 8%, transparent 100%),radial-gradient(circle at 77% 56%, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.01) 8%,transparent 8%, transparent 100%),radial-gradient(circle at 94% 5%, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 80% 2%, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.01) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 25% 13%, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 31% 18%, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.02) 5%,transparent 5%, transparent 100%),linear-gradient(45deg, rgb(35, 78, 198),rgb(222, 95, 241));
     font-family: 'Helvetica Neue', 'Arial', sans-serif;
+
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
 }
 
 .phone-border
