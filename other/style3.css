@@ -310,6 +310,7 @@ body {
     flex-direction: column; /* Ustawienie elementów w kolumnie, czyli jeden pod drugim */
     justify-content: center; /* Wyśrodkowanie elementów w osi Y (pionowo) */
     align-items: center;     /* Wyśrodkowanie elementów w osi X (poziomo) */
+    font-size: 90%;
     
 }
 
